@@ -165,3 +165,9 @@ section{
     background: var(--main-color);
     color: var(--bg-color);
 }
+header.sticky {
+    background: var(--bg-color);
+    box-shadow: 0 .1rem 1rem rgba( 0, 0, 0, .2);
+    padding: 16px 16%;
+}
+/* ------------------- about ------------------- */
