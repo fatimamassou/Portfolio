@@ -34,7 +34,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 16%;
+    padding: 20px 10%;
     background: transparent;
     transition: all .50s ease;
 }
@@ -86,7 +86,7 @@ span{
 
 /* ------------------- hero ------------------- */
 section{
-    padding: 110px 16% 19px;
+    padding: 110px 10% 19px;
 }
 .hero{
     height: 100vh;
@@ -178,6 +178,7 @@ header.sticky {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1rem;
+    margin-bottom: 300px
 }
 .about-img img{
     width: 100%;
