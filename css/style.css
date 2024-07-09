@@ -84,4 +84,38 @@ span{
 }
 
 /* ------------------- hero ------------------- */
-
+section{
+    padding: 110px 16% 19px;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background:url(../img/githubProfile.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.main-content h4 {
+    font-size: 1.6rem;
+}
+.main-content h1 {
+    font-size: var(--h1-font);
+    font-weight: 900;
+    margin: 20px 0px 20px;
+    line-height: 1.2;
+}
+.main-content p {
+    font-size: var(--p-font);
+    font-weight: 400;
+    width: 620px;
+    max-width: 100%;
+    color: var(--other-color);
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.social {
+    margin-bottom:40px ;
+}
