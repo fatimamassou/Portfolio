@@ -215,6 +215,12 @@ header.sticky {
     width: 100%;
     max-width: 60px;
     height: 60px;
+    /* background-color: var(--main-color); */
+    /* color: white; */
     /* border-radius: 50%; */
-
+}
+.box-img1{
+    background-color: rgb(71, 75, 76); 
+    
+    border-radius: 50%;
 }
