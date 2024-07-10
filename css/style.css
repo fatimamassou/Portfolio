@@ -221,3 +221,16 @@ header.sticky {
     color: white;
     border-radius: 50%;
 }
+.center-text {
+    text-align: center;
+}
+.center-text h2{
+    font-size: var(--h2-font);
+}
+.serveces-content {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
