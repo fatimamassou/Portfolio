@@ -71,7 +71,7 @@ span{
     padding: 11px 26px;
     background: transparent;
     color: var(--main-color);
-    border: 2px solid var(--main-color);
+    border: 3px solid var(--main-color);
     border-radius: 8px;
     font-size: 15px;
     font-weight: 600;
@@ -220,6 +220,7 @@ header.sticky {
     background-color: var(--main-color);
     color: white;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 .center-text {
     text-align: center;
@@ -233,4 +234,48 @@ header.sticky {
     align-items: center;
     gap: 2.3rem;
     margin-top: 4.2rem;
+}
+.box {
+    padding: 88px 40px 66px;
+    background: #2d343F;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px var(--main-color);
+    cursor: pointer;
+    transition: all .50s ease;
+}
+.box:hover {
+    border:1px solid var(--main-color);
+    transform: translateY(-2px) scale(1.02);
+}
+.box h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.box p {
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--other-color);
+    line-height: 30px;
+}
+.box a {
+    display: inline-block; 
+    font-size: 22px;
+    line-height: 1.273em;
+    font-weight: 700;   
+    padding: 7px 0;
+    color: var(--text-color);
+    border-bottom: 2px solid #5d6c83;
+    transition: all .50s ease;
+}
+.box a:hover {
+    border-bottom: 2px solid var(--main-color);
+}
+.box a i {
+    vertical-align:middle;
+    color: var(--main-color);
+    font-size: 26px;
+    margin-left: 6px;
 }
