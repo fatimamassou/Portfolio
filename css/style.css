@@ -12,7 +12,7 @@
     --text-color : #fff;
     --bg-color : #1b1f24;
     --second-bg-color : #22282f;
-    --main-color : #12bbff;
+    --main-color : #13bbff;
     --other-color : #c3cad5;
 
     --h1-font : 4.5rem;
@@ -211,16 +211,13 @@ header.sticky {
 }
 /* ------------------- services ------------------- */
 
-.box img {
+.i{
     width: 100%;
     max-width: 60px;
     height: 60px;
-    /* background-color: var(--main-color); */
-    /* color: white; */
-    /* border-radius: 50%; */
-}
-.box-img1{
-    background-color: rgb(71, 75, 76); 
-    
+    padding: 12px;
+    font-size:35px;
+    background-color: var(--main-color);
+    color: white;
     border-radius: 50%;
 }
