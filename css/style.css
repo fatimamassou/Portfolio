@@ -178,7 +178,7 @@ header.sticky {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1rem;
-    margin-bottom: 300px
+    padding-bottom: 100px;
 }
 .about-img img{
     width: 100%;
@@ -194,6 +194,9 @@ header.sticky {
     line-height: 1.3;
     margin-bottom: 20px;
 }
+.exp-area {
+    margin-bottom: 50px;
+}
 .exp-area p {
     font-size:19px;
     line-height: 42px;
@@ -205,4 +208,13 @@ header.sticky {
     font-weight: 400;
     color: var(--other-color);
     margin-left: 8px;
+}
+/* ------------------- services ------------------- */
+
+.box img {
+    width: 100%;
+    max-width: 60px;
+    height: 60px;
+    /* border-radius: 50%; */
+
 }
