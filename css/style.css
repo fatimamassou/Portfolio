@@ -280,3 +280,31 @@ header.sticky {
     font-size: 20px;
     margin-left: 6px;
 }
+
+@media (max-width: 1200px) {
+    header{ 
+       padding: 20px 2%;
+    }
+    header.sticky {
+        padding: 14px 3%;
+    }
+    section {
+        padding: 90px 8% 80px;
+    }
+   
+}
+@media (max-width: 1330px){
+    header{ 
+        padding: 20px 5%;
+     }
+     header.sticky {
+         padding: 14px 5%;
+     }
+     section {
+         padding: 90px 5% 80px;
+     }
+    .hero{
+        height: 90vh;
+        background-position: center;
+    }
+}
