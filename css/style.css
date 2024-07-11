@@ -220,7 +220,7 @@ header.sticky {
     background-color: var(--main-color);
     color: white;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .center-text {
     text-align: center;
@@ -236,7 +236,7 @@ header.sticky {
     margin-top: 4.2rem;
 }
 .box {
-    padding: 88px 40px 66px;
+    padding: 60px 40px 60px;
     background: #2d343F;
     border-radius: 20px;
     border: 1px solid transparent;
@@ -252,6 +252,7 @@ header.sticky {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
+    margin-top: 40px;
 }
 .box p {
     font-size: var(--p-font);
@@ -276,6 +277,6 @@ header.sticky {
 .box a i {
     vertical-align:middle;
     color: var(--main-color);
-    font-size: 26px;
+    font-size: 20px;
     margin-left: 6px;
 }
