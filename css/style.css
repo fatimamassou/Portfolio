@@ -295,16 +295,35 @@ header.sticky {
 }
 @media (max-width: 1330px){
     header{ 
-        padding: 20px 5%;
-     }
-     header.sticky {
-         padding: 14px 5%;
-     }
-     section {
-         padding: 90px 5% 80px;
-     }
+        padding: 20px 9%;
+    }
+    header.sticky{
+        padding: 14px 6%;
+    }
+    section {
+        padding: 250px 8% 80px;
+    }
     .hero{
-        height: 80vh;
-        background-position: center;
+        height: 62vh;
+        background-position: top right;
+
+    }
+}
+@media (max-width: 1290px){
+    .box{ 
+        padding: 60px 40px 60px;
+    }
+    header{ 
+        padding: 10px 9%;
+    }
+    header.sticky {
+        padding: 14px 6%;
+    }
+    section {
+        padding: 220px 9% 80px;
+    }
+    .hero{
+        height: 50vh;
+        background-position: top right;
     }
 }
