@@ -40,8 +40,8 @@ header{
 }
 .logo{
     font-size: 36px;
-    color: var(--text-color);
     font-weight: 600;
+    color: var(--text-color);
 }
 span{
     color: var(--main-color);
@@ -51,7 +51,7 @@ span{
 }
 .navlist a{
     font-size: var(--p-font);
-    font-weight: 500;
+    font-weight: 400;
     color: var(--other-color);
     margin-left: 40px;
     transition: all .50s ease;
@@ -310,20 +310,30 @@ header.sticky {
     }
 }
 @media (max-width: 1290px){
-    .box{ 
-        padding: 60px 40px 60px;
-    }
     header{ 
         padding: 10px 9%;
     }
     header.sticky {
         padding: 14px 6%;
     }
+    .logo{
+        font-size: 25px;
+        font-weight: 600;
+    }
     section {
-        padding: 220px 9% 80px;
+        padding: 110px 9% 70px;
     }
     .hero{
         height: 50vh;
         background-position: top right;
+    }
+    .h-btn{
+        padding: 8px 11px;
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .box{ 
+        padding: 60px 40px 60px;
     }
 }
