@@ -86,7 +86,7 @@ span{
 
 /* ------------------- hero ------------------- */
 section{
-    padding: 110px 10% 19px;
+    padding: 110px 10% 90px;
 }
 .hero{
     height: 100vh;
@@ -289,6 +289,19 @@ header.sticky {
     font-size: 20px;
     margin-left: 6px;
 }
+/* ------------------- portfolio ------------------- */
+
+.portfolio {
+    background-color: var(--second-bg-color);
+}
+.portfolio-content {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
+/* ------------------- media ------------------- */
 
 @media (max-width: 1200px) {
     header{ 
