@@ -223,6 +223,14 @@ header.sticky {
     border-radius: 50%;
     margin-bottom: 40px;
 }
+.i2{
+    padding: 8px;
+    font-size:20px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
 .center-text {
     text-align: center;
 }
