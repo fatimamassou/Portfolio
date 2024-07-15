@@ -301,6 +301,14 @@ header.sticky {
     gap: 2.3rem;
     margin-top: 4.2rem;
 }
+.row img {
+    border-radius: 30px;
+    margin-bottom: 1.4rem;
+    height: 300px;
+    width: 100%;
+}
+
+
 /* ------------------- media ------------------- */
 
 @media (max-width: 1200px) {
