@@ -388,6 +388,7 @@ form input::placeholder,form textarea::placeholder{
     color: var(--main-color);
     box-shadow: 0 0 10px var(--main-color);
 }
+
 /* ------------------- media ------------------- */
 
 @media (max-width: 1200px) {
