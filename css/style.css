@@ -388,7 +388,36 @@ form input::placeholder,form textarea::placeholder{
     color: var(--main-color);
     box-shadow: 0 0 10px var(--main-color);
 }
-
+/* ------------------- footer ------------------- */
+.footer{
+    padding: 22px 16%;
+    background: var(--second-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.copyright p{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--other-color);
+}
+.footer i{
+    display: inline-flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    background: #075fe4;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .50s ease;
+    color: var(--text-color);
+}
+.footer i:hover{
+    transform: translateY(-12px) ;
+}
 /* ------------------- media ------------------- */
 
 @media (max-width: 1200px) {
