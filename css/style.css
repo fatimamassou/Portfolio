@@ -224,11 +224,9 @@ header.sticky {
     margin-bottom: 40px;
 }
 .i2{
-    padding: 8px;
+    padding: 2px;
     font-size:20px;
-    background-color: var(--main-color);
-    color: white;
-    border-radius: 50%;
+    color: var(--main-color);
     margin-bottom: 40px;
 }
 .center-text {
@@ -315,8 +313,35 @@ header.sticky {
     padding: 20px;
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
+    transition: all .50s ease;
 }
-
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.row-text h5 {
+    font-size:20px;
+    font-weight: 600;
+    color: var(--other-color);
+}
+.rox-icon i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: var(--text-color);
+    background-color: #075fe4;
+}
+.row:hover{
+    border: 1px solid var(--main-color);
+    transform: translateY(-2px) scale(1.01);
+}
 /* ------------------- media ------------------- */
 
 @media (max-width: 1200px) {
