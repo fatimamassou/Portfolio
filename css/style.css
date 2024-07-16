@@ -341,6 +341,7 @@ header.sticky {
 .row:hover{
     border: 1px solid var(--main-color);
     transform: translateY(-2px) scale(1.01);
+    cursor: pointer;
 }
 /* ------------------- media ------------------- */
 
