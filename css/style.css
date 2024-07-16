@@ -302,12 +302,20 @@ header.sticky {
     margin-top: 4.2rem;
 }
 .row img {
-    border-radius: 30px;
+    border-top-left-radius: 12%;
+    border-bottom-right-radius: 12%;
     margin-bottom: 1.4rem;
     height: 300px;
     width: 100%;
 }
-
+.row{
+    background-color: #2d343f;
+    border-top-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    padding: 20px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+}
 
 /* ------------------- media ------------------- */
 
