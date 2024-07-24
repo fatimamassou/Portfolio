@@ -446,47 +446,4 @@ form input::placeholder,form textarea::placeholder{
     }
 }
 
-/* @media (max-width: 1330px){
-    header{ 
-        padding: 20px 9%;
-    }
-    header.sticky{
-        padding: 14px 6%;
-    }
-    section {
-        padding: 250px 8% 80px;
-    }
-    .hero{
-        height: 62vh;
-        background-position: top right;
 
-    }
-}
-@media (max-width: 1290px){
-    header{ 
-        padding: 10px 9%;
-    }
-    header.sticky {
-        padding: 14px 6%;
-    }
-    .logo{
-        font-size: 25px;
-        font-weight: 600;
-    }
-    section {
-        padding: 110px 9% 70px;
-    }
-    .hero{
-        height: 50vh;
-        background-position: top right;
-    }
-    .h-btn{
-        padding: 8px 11px;
-        border-radius: 8px;
-        font-size: 12px;
-        font-weight: 700;
-    }
-    .box{ 
-        padding: 60px 40px 60px;
-    }
-} */
