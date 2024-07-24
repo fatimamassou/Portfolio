@@ -422,7 +422,29 @@ form input::placeholder,form textarea::placeholder{
 
 @media (max-width: 1700px) {
     header{ 
-       padg
+       padding: 20px 3%;
+    }
+    header.sticky {
+        padding: 14px 8%;
+    }
+    section {
+        padding: 90px 8% 80px;
+    }
+    .logo {
+        font-size: 26px;
+    }
+    .footer {
+        padding: 18px 10%;
+    }
+    .footer i {
+        font-size: 25px;
+        height: 35px;
+        width: 35px;
+    }
+    .footer i:hover{
+        transform: translateY(-8px) ;
+    }
+}
 
 /* @media (max-width: 1330px){
     header{ 
