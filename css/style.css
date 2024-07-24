@@ -420,18 +420,11 @@ form input::placeholder,form textarea::placeholder{
 }
 /* ------------------- media ------------------- */
 
-@media (max-width: 1200px) {
+@media (max-width: 1700px) {
     header{ 
-       padding: 20px 2%;
-    }
-    header.sticky {
-        padding: 14px 3%;
-    }
-    section {
-        padding: 90px 8% 80px;
-    }
-}
-@media (max-width: 1330px){
+       padg
+
+/* @media (max-width: 1330px){
     header{ 
         padding: 20px 9%;
     }
@@ -474,4 +467,4 @@ form input::placeholder,form textarea::placeholder{
     .box{ 
         padding: 60px 40px 60px;
     }
-}
+} */
