@@ -445,5 +445,32 @@ form input::placeholder,form textarea::placeholder{
         transform: translateY(-8px) ;
     }
 }
+@media (max-width: 1380px) {
+    header{ 
+       padding: 20px 3%;
+    }
+    header.sticky {
+        padding: 14px 5%;
+    }
+    section {
+        padding: 90px 5% 80px;
+    }
+    .footer {
+        padding: 18px 12%;
+    }
+    .hero{
+        height: 90vh;
+        background-position: center;
+    }
+}
 
-
+@media (max-width: 1290px) {
+    .box {
+        padding: 40px 40px 46px;
+    }
+    .box img {
+        width: 100%;
+        height: 60px;
+        max-width: 60px;
+    }
+}
