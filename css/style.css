@@ -422,7 +422,7 @@ form input::placeholder,form textarea::placeholder{
 
 @media (max-width: 1700px) {
     header{ 
-       padding: 20px 3%;
+       padding: 20px 8%;
     }
     header.sticky {
         padding: 14px 8%;
@@ -434,7 +434,7 @@ form input::placeholder,form textarea::placeholder{
         font-size: 26px;
     }
     .footer {
-        padding: 18px 10%;
+        padding: 18px 8%;
     }
     .footer i {
         font-size: 25px;
@@ -447,7 +447,7 @@ form input::placeholder,form textarea::placeholder{
 }
 @media (max-width: 1380px) {
     header{ 
-       padding: 20px 3%;
+       padding: 20px 5%;
     }
     header.sticky {
         padding: 14px 5%;
@@ -456,10 +456,11 @@ form input::placeholder,form textarea::placeholder{
         padding: 90px 5% 80px;
     }
     .footer {
-        padding: 18px 12%;
+        padding: 18px 5%;
     }
     .hero{
         height: 90vh;
+        
         background-position: top right;
         background-size: contain;
     }
@@ -469,13 +470,11 @@ form input::placeholder,form textarea::placeholder{
     .box {
         padding: 40px 40px 46px;
     }
-    .box img {
-        width: 100%;
-        height: 60px;
-        max-width: 60px;
+    .i{
+        font-size:25px;
     }
     .box h3 {
-        font-size: 21px;
+        font-size: 18px;
     }
     .portfolio-content {
         display: grid;
@@ -500,5 +499,11 @@ form input::placeholder,form textarea::placeholder{
         border-bottom-right-radius: 30%;
         object-fit: cover;     
         margin: 0 auto;   
+    }
+    :root{
+        --h1-font: 4rem;
+        --h2-font: 2.2rem;
+        --p-font: 15px;
+
     }
 }
