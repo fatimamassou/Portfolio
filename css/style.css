@@ -460,6 +460,8 @@ form input::placeholder,form textarea::placeholder{
     }
     .hero{
         height: 90vh;
+        background-position: top right;
+        background-size: contain;
     }
 }
 
@@ -475,11 +477,18 @@ form input::placeholder,form textarea::placeholder{
     .box h3 {
         font-size: 21px;
     }
+    .portfolio-content {
+        display: grid;
+        grid-template-columns:repeat(auto-fit, minmax(340px, auto));
+        gap: 1.0rem;
+        align-items: center;
+        margin-top: 4.2rem;
+    }
 }
 @media (max-width: 1240px) {
     .about{
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 6rem;
         text-align: center;
     }
 }
