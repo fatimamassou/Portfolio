@@ -15,6 +15,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- AOS Link -->   
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- header -->
@@ -38,7 +40,7 @@
         
         <!-- hero -->
             <section class="hero" id="hero">
-                <div class="main-content">
+                <div class="main-content" data-aos="fade-in">
                     <h4>Hi, There!</h4>
                     <h1>I'm <span>Massou Fatima</span></h1>
                     <p>I am a passionate and dedicated software engineer. With a strong foundation in programming 
@@ -57,10 +59,10 @@
             </section>
         <!-- about -->
         <section class="about" id="about">
-            <div class="about-img">
+            <div class="about-img" data-aos="zoom-in-down">
                 <img src="../img/githubProfile.jpg" alt="img">
             </div>
-            <div class="about-text">
+            <div class="about-text" data-aos="zoom-in-up">
                 <h2>I am <span>Software Engineer</span> <br> & Web developer
                 </h2>
                 <div class="exp-area">
@@ -273,5 +275,12 @@
     <!--js link-->
         <script src="../js/main.js"></script>
         <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 300,
+            duration: 1400,
+          });
+        </script>
 </body>
 </html>
