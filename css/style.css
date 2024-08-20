@@ -447,7 +447,7 @@ form input::placeholder,form textarea::placeholder{
 }
 @media (max-width: 1380px) {
     header{ 
-       padding: 20px 5%;
+       padding: 20px 10%;
     }
     header.sticky {
         padding: 14px 5%;
@@ -459,10 +459,12 @@ form input::placeholder,form textarea::placeholder{
         padding: 18px 5%;
     }
     .hero{
-        height: 90vh;
-        
-        background-position: top right;
-        background-size: contain;
+        height: 75vh;
+        background-position:initial;
+        background-size: cover;
+    }
+    .main-content h1{
+        font-size: 40px;
     }
 }
 
@@ -507,7 +509,7 @@ form input::placeholder,form textarea::placeholder{
 
     }
 }
-@media (max-width: 1240px) {
+@media (max-width: 950px) {
     :root{
         --h1-font: 3.5rem;
     }  
@@ -537,4 +539,9 @@ form input::placeholder,form textarea::placeholder{
         right: 0;
     }
 }
-
+@media (max-width:680px ) {
+    .main-content p {
+        width: 100%;
+    }
+    
+}
