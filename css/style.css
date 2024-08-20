@@ -517,5 +517,16 @@ form input::placeholder,form textarea::placeholder{
     #menu-icon{
         display: block;
     }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 255px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bg-color);
+        transition: all .(às ease);
+    }
 }
 
