@@ -507,3 +507,15 @@ form input::placeholder,form textarea::placeholder{
 
     }
 }
+@media (max-width: 1240px) {
+    :root{
+        --h1-font: 3.5rem;
+    }  
+    .social {
+        margin-bottom:20px ;
+    }
+    #menu-icon{
+        display: block;
+    }
+}
+
