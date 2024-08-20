@@ -520,13 +520,21 @@ form input::placeholder,form textarea::placeholder{
     .navlist{
         position: absolute;
         top: 100%;
-        right: 0;
+        right: -100%;
         width: 255px;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         background-color: var(--bg-color);
-        transition: all .(às ease);
+        transition: all .50s ease;
+    }
+    .navlist a {
+        display: block;
+        padding: 17px;
+        font-size: 22px;
+    }
+    .navlist.active{
+        right: 0;
     }
 }
 
