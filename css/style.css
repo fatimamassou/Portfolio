@@ -359,6 +359,7 @@ form input,form textarea {
     padding: 20px;
     outline: none;
     border: none;
+    font-size:16px;
     box-shadow: 0 0 5px var(--main-color);
     background:#2d343f;
     color: var(--text-color);
@@ -369,6 +370,10 @@ form input,form textarea {
 form input::placeholder,form textarea::placeholder{
     color: var(--other-color);
     font-size: 15px;
+}
+form input:focus,form textarea:focus  {
+    box-shadow: 0 0 15px var(--main-color);
+    
 }
 .send-btn{
     display:flex;
