@@ -452,7 +452,7 @@ form input:focus,form textarea:focus  {
 }
 @media (max-width: 1380px) {
     header{ 
-       padding: 20px 5%;
+       padding: 20px 4%;
     }
     header.sticky {
         padding: 20px 5%;
@@ -464,7 +464,7 @@ form input:focus,form textarea:focus  {
         padding: 18px 5%;
     }
     .hero{
-        height: 75vh;
+        height: 100vh;
         background-position:initial;
         background-size: cover;
     }
