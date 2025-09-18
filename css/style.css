@@ -18,6 +18,7 @@
     --h1-font : 3.5rem;
     --h2-font : 1.9rem;
     --p-font : 1rem;
+    --p-font-2 : 0.8rem;
 }
 body{
     color: var(--text-color);
@@ -489,6 +490,29 @@ form input:focus,form textarea:focus  {
         gap: 1.0rem;
         align-items: center;
         margin-top: 4.2rem;
+    }
+    .about-img img{
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        max-width: 400px;
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+        object-fit: cover;     
+        margin: 0 auto;   
+    }
+    .about-text h2 {
+    font-size: var(--h2-font);
+    }
+    .exp-area p {
+        font-size:14px;
+        line-height: 34px;
+    }
+    .exp-area p span{
+        font-size:var(--p-font-2);
+    }
+    .exp-area {
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 1240px) {
