@@ -276,7 +276,7 @@ header.sticky {
     line-height: 30px;
 }
 .box a {
-    display: inline-block; 
+    display: inline-block;
     font-size: 22px;
     line-height: 1.273em;
     font-weight: 700;   
@@ -592,5 +592,12 @@ form input:focus,form textarea:focus  {
         border-bottom-right-radius: 30%;
         object-fit: cover;
         margin: 0 auto;
+    }
+    .about {
+        padding-top: 20px;
+        gap: 1.5rem;
+    }
+    .serveces-content{
+        margin-top: 2rem;
     }
 }
