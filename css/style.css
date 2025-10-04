@@ -211,6 +211,15 @@ header.sticky {
     color: var(--other-color);
     margin-left: 8px;
 }
+.skills-img {
+    display: grid;
+    grid-template-columns: repeat(11 , 1fr);
+    align-items: center;
+    margin-left: 8px;
+}
+.exp-skills {
+    display: flex;
+}
 /* ------------------- services ------------------- */
 
 .i{
@@ -535,7 +544,11 @@ form input:focus,form textarea:focus  {
         --h1-font: 4rem;
         --h2-font: 2.2rem;
         --p-font: 15px;
-
+    }
+    .exp-skills {
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
 }
 @media (max-width: 950px) {
