@@ -500,25 +500,25 @@ form input:focus,form textarea:focus  {
     .about-img img{
         text-align: center;
         width: 100%;
-        height: 400px;
-        max-width: 400px;
+        height: 450px;
+        max-width: 450px;
         border-top-left-radius: 30%;
         border-bottom-right-radius: 30%;
         object-fit: cover;     
         margin: 0 auto;   
     }
     .about-text h2 {
-    font-size: var(--h2-font);
+        font-size:25px;
     }
     .exp-area p {
         font-size:14px;
-        line-height: 34px;
+        line-height: 30px;
     }
     .exp-area p span{
         font-size:var(--p-font-2);
     }
     .exp-area {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 }
 @media (max-width: 1240px) {
@@ -541,11 +541,6 @@ form input:focus,form textarea:focus  {
         --h1-font: 4rem;
         --h2-font: 2.2rem;
         --p-font: 15px;
-    }
-    .exp-skills {
-        display: flex;
-        align-items: center;
-        text-align: center;
     }
 }
 @media (max-width: 950px) {
