@@ -597,7 +597,18 @@ form input:focus,form textarea:focus  {
         padding-top: 20px;
         gap: 1.5rem;
     }
-    .serveces-content{
+    .h-content{
         margin-top: 2rem;
+    }
+    .send-btn{
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all .50s ease;
+        width: 40%;
+    } 
+    .copyright p{
+        font-size: 10px;
+        font-weight: 400;
     }
 }
