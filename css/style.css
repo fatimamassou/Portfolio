@@ -178,7 +178,7 @@ header.sticky {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
     padding-bottom: 100px;
 }
 .about-img img{
