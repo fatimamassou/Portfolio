@@ -3,6 +3,7 @@ const contactForm = document.querySelector('#contact-form');
 const nameInput = document.querySelector('.name');
 const emailInput = document.querySelector('.email');
 const messageInput = document.querySelector('.message');
+const typedElement = document.querySelector('.typed');
 
 window.addEventListener("scroll",function (){
     header.classList.toggle ("sticky" , this.window.scrollY > 120);
@@ -38,3 +39,12 @@ contactForm.addEventListener('submit', async function(event) {
     alert('Oops! Something went wrong.');
   }
 });
+
+if (typedElement) {
+  new Typed('.typed', {
+    strings: ['Massou Fatima', 'a Full Stack Developer', 'a UX/UI Designer'],
+    typeSpeed: 80,
+    backSpeed: 50,
+    loop: true
+  });
+}
