@@ -20,6 +20,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <!-- AOS Link -->   
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Include Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <!-- header -->
@@ -45,7 +47,7 @@
             <section class="hero" id="hero">
                 <div class="main-content" data-aos="fade-right">
                     <h4>Hi, There!</h4>
-                    <h1>I'm <span>Massou Fatima</span></h1>
+                    <h1>I'm <span class="typed"></span></h1>
                     <p>I'm a Full-Stack Web Developer and UX/UI Designer with 2 years of experience.
                         I love creating responsive, user-friendly, and impactful digital solutions.</p>
                     <div class="social">
@@ -309,9 +311,10 @@
                     <a href="#hero"><i class='bx bx-chevrons-up'></i></a>
             </div>
     <!--js link-->
-        <script src="./main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="./main.js"></script>
         <script>
           AOS.init({
             offset: 300,
