@@ -4,6 +4,7 @@ const nameInput = document.querySelector('.name');
 const emailInput = document.querySelector('.email');
 const messageInput = document.querySelector('.message');
 const typedElement = document.querySelector('.typed');
+const yearElement = document.querySelector('.year');
 
 window.addEventListener("scroll",function (){
     header.classList.toggle ("sticky" , this.window.scrollY > 120);
@@ -47,4 +48,7 @@ if (typedElement) {
     backSpeed: 50,
     loop: true
   });
+}
+if (yearElement) {
+  yearElement.textContent = new Date().getFullYear();
 }
