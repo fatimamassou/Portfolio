@@ -307,11 +307,10 @@ header.sticky {
     margin-top: 4.2rem;
 }
 .row img {
-    border-top-left-radius: 12%;
-    border-bottom-right-radius: 12%;
+    border-radius: 20px;
     margin-bottom: 1.4rem;
     height: 300px;
-    width: 100%;
+    width: auto;
 }
 .row{
     background-color: #2d343f;
@@ -321,6 +320,7 @@ header.sticky {
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
     transition: all .50s ease;
+    width: 100%;
 }
 .main-row{
     display: flex;
