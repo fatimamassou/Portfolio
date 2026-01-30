@@ -309,8 +309,11 @@ header.sticky {
 .row img {
     border-radius: 20px;
     margin-bottom: 1.4rem;
-    height: 300px;
-    width: auto;
+     width: 100%;
+    height: 220px;             
+    object-fit: cover;          
+    border-radius: 12px;
+    display: block;
 }
 .row{
     background-color: #2d343f;
@@ -320,7 +323,6 @@ header.sticky {
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
     transition: all .50s ease;
-    width: 100%;
 }
 .main-row{
     display: flex;
