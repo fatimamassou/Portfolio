@@ -5,6 +5,8 @@ const emailInput = document.querySelector('.email');
 const messageInput = document.querySelector('.message');
 const typedElement = document.querySelector('.typed');
 const yearElement = document.querySelector('.year');
+const filterButtons = document.querySelectorAll(".filter-btn");
+const projects = document.querySelectorAll(".portfolio-content .row");
 
 window.addEventListener("scroll",function (){
     header.classList.toggle ("sticky" , this.window.scrollY > 120);
@@ -52,3 +54,25 @@ if (typedElement) {
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
 }
+
+filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+
+        // remove active class
+        filterButtons.forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+
+        const filterValue = button.getAttribute("data-filter");
+
+        projects.forEach(project => {
+            const category = project.getAttribute("data-category");
+
+            if (filterValue === "all" || category === filterValue) {
+                project.style.display = "block";
+            } else {
+                project.style.display = "none";
+            }
+        });
+
+    });
+});
