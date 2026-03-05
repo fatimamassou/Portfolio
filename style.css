@@ -258,16 +258,19 @@ header.sticky {
     cursor: pointer;
     transition: all .50s ease;
 }
+
 .box:hover {
     border:1px solid var(--main-color);
     transform: translateY(-2px) scale(1.02);
 }
+
 .box h3 {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
     margin-top: 40px;
 }
+
 .box p {
     font-size: var(--p-font);
     font-weight: 400;
@@ -275,6 +278,7 @@ header.sticky {
     color: var(--other-color);
     line-height: 30px;
 }
+
 .box a {
     display: inline-block;
     font-size: 22px;
