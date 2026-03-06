@@ -230,18 +230,22 @@ header.sticky {
     border-radius: 50%;
     margin-bottom: 40px;
 }
+
 .i2{
     padding: 2px;
     font-size:20px;
     color: var(--main-color);
     margin-bottom: 40px;
 }
+
 .center-text {
     text-align: center;
 }
+
 .center-text h2{
     font-size: var(--h2-font);
 }
+
 .serveces-content {
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(300px, auto));
@@ -249,6 +253,7 @@ header.sticky {
     gap: 2.3rem;
     margin-top: 4.2rem;
 }
+
 .box {
     padding: 60px 40px 60px;
     background: #2d343F;
