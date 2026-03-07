@@ -199,18 +199,21 @@ header.sticky {
 .exp-area {
     margin-bottom: 50px;
 }
+
 .exp-area p {
     font-size:19px;
     line-height: 42px;
     font-weight: 600;
     color: var(--text-color);
 }
+
 .exp-area p span{
     font-size:var(--p-font);
     font-weight: 400;
     color: var(--other-color);
     margin-left: 8px;
 }
+
 .skills-img {
     display: grid;
     grid-template-columns: repeat(11 , 1fr);
