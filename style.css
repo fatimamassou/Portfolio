@@ -163,10 +163,12 @@ section{
     margin-left: 15px;
     transition: all .50s ease;
 }
+
 .btn2:hover {
     background: var(--main-color);
     color: var(--bg-color);
 }
+
 header.sticky {
     background: var(--bg-color);
     box-shadow: 0 .1rem 1rem rgba( 0, 0, 0, .2);
@@ -181,6 +183,7 @@ header.sticky {
     gap: 3rem;
     padding-bottom: 100px;
 }
+
 .about-img img{
     width: 100%;
     height: 530px;
@@ -191,11 +194,13 @@ header.sticky {
     border:7px solid var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
 }
+
 .about-text h2 {
     font-size: var(--h2-font);
     line-height: 1.3;
     margin-bottom: 20px;
 }
+
 .exp-area {
     margin-bottom: 50px;
 }
