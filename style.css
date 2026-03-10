@@ -121,6 +121,7 @@ section{
 .social {
     margin-bottom:40px ;
 }
+
 .social i {
     display: inline-flex;
     align-items: center;
@@ -136,6 +137,7 @@ section{
     cursor: pointer;
     transition: all .50s ease;
 }
+
 .social i:hover {
     transform: scale(1.1);
     box-shadow: 0 0 20px var(--main-color);
