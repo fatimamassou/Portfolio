@@ -61,12 +61,14 @@ span{
     color: var(--main-color);
     text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
 }
+
 #menu-icon{
     font-size: 35px;
     z-index: 10001;
     cursor: pointer;
     display: none;
 }
+
 .h-btn{
     display: inline-block;
     padding: 11px 26px;
@@ -78,6 +80,7 @@ span{
     font-weight: 600;
     transition: all .50s ease;
 }
+
 .h-btn:hover {
     background: var(--main-color);
     color: var(--bg-color);
@@ -89,6 +92,7 @@ span{
 section{
     padding: 110px 10% 90px;
 }
+
 .hero{
     height: 100vh;
     width: 100%;
