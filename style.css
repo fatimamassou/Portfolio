@@ -47,11 +47,9 @@ header{
 span{
     color: var(--main-color);
 }
-
 .navlist{
     display: flex;
 }
-
 .navlist a{
     font-size: var(--p-font);
     font-weight: 400;
