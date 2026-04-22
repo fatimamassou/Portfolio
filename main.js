@@ -8,7 +8,6 @@ const yearElement = document.querySelector('.year');
 const filterButtons = document.querySelectorAll(".filter-btn");
 const projects = document.querySelectorAll(".portfolio-content .row");
 
-
 window.addEventListener("scroll",function (){
     header.classList.toggle ("sticky" , this.window.scrollY > 120);
 });
