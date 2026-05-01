@@ -25,7 +25,7 @@ window.onscroll = () => {
 }
 
 contactForm.addEventListener('submit', async function(event) {
-  event.preventDefault(); // stop auto reload
+  event.preventDefault(); 
   const formData = new FormData(contactForm);
 
   const response = await fetch(contactForm.action, {
