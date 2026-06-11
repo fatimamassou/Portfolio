@@ -39,17 +39,21 @@ header{
     background: transparent;
     transition: all .50s ease;
 }
+
 .logo{
     font-size: 36px;
     font-weight: 600;
     color: var(--text-color);
 }
+
 span{
     color: var(--main-color);
 }
+
 .navlist{
     display: flex;
 }
+
 .navlist a{
     font-size: var(--p-font);
     font-weight: 400;
