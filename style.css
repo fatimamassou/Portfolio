@@ -391,12 +391,14 @@ margin-left: 6px;
     box-shadow: 0 0 5px var(--main-color);
     transition: all .50s ease;
 }
+
 .main-row{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.5rem;
 }
+
 .row p {
     font-size: var(--p-font);
     font-weight: 400;
@@ -404,11 +406,13 @@ margin-left: 6px;
     color: var(--other-color);
     line-height: 30px;
 }
+
 .row-text h5 {
     font-size:20px;
     font-weight: 600;
     color: var(--text-color);
 }
+
 .rox-icon i {
     display: inline-flex;
     align-items: center;
