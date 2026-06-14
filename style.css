@@ -470,6 +470,7 @@ margin-left: 6px;
     position: relative;
     width: 600px;
 }
+
 form input,form textarea {
     width: 100%;
     padding: 20px;
@@ -483,14 +484,17 @@ form input,form textarea {
     border-radius:8px ;
     transition: all .50s ease;
 }
+
 form input::placeholder,form textarea::placeholder{
     color: var(--other-color);
     font-size: 15px;
 }
+
 form input:focus,form textarea:focus  {
     box-shadow: 0 0 15px var(--main-color);
     
 }
+
 .send-btn{
     display:flex;
     padding: 11px 26px;
@@ -504,6 +508,7 @@ form input:focus,form textarea:focus  {
     width: 30%;
     cursor: pointer;
 } 
+
 .send-btn:hover{
     background: transparent;
     color: var(--main-color);
