@@ -574,6 +574,7 @@ form input:focus,form textarea:focus  {
         transform: translateY(-8px) ;
     }
 }
+
 @media (max-width: 1380px) {
     header{ 
        padding: 20px 4%;
@@ -638,6 +639,7 @@ form input:focus,form textarea:focus  {
         margin-bottom: 25px;
     }
 }
+
 @media (max-width: 1240px) {
     .about{
         grid-template-columns: 1fr;
@@ -660,6 +662,7 @@ form input:focus,form textarea:focus  {
         --p-font: 15px;
     }
 }
+
 @media (max-width: 950px) {
     :root{
         --h1-font: 3.5rem;
@@ -690,6 +693,7 @@ form input:focus,form textarea:focus  {
         right: 0;
     }
 }
+
 @media (max-width:680px ) {
     .main-content p {
         width: 100%;
