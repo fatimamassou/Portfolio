@@ -699,6 +699,7 @@ form input:focus,form textarea:focus  {
         width: 100%;
     }
 }
+
 @media (max-width:470px){
     :root{
         --h1-font: 3rem;
