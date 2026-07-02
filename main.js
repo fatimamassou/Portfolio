@@ -8,12 +8,13 @@ const yearElement = document.querySelector('.year');
 const filterButtons = document.querySelectorAll(".filter-btn");
 const projects = document.querySelectorAll(".portfolio-content .row");
 
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
+
 window.addEventListener("scroll",function (){
     header.classList.toggle ("sticky" , this.window.scrollY > 120);
 });
 
-let menu = document.querySelector('#menu-icon');
-let navlist = document.querySelector('.navlist');
 
 menu.onclick = () => {
     menu.classList.toggle('bx-x');
