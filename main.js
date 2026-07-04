@@ -54,6 +54,7 @@ if (typedElement) {
     loop: true
   });
 }
+
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
 }
