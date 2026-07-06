@@ -76,6 +76,7 @@ filterButtons.forEach(button => {
             } else {
                 project.style.display = "none";
             }
+            
         });
     });
 });
