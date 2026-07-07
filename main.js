@@ -44,6 +44,7 @@ contactForm.addEventListener('submit', async function(event) {
   } else {
     alert('Oops! Something went wrong.');
   }
+  
 });
 
 if (typedElement) {
