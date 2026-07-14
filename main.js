@@ -43,12 +43,12 @@ contactForm.addEventListener('submit', async function(event) {
     messageInput.value = '';
   } else {
     alert('Oops! Something went wrong.');
-  }
+  }                                                
 });
 
 if (typedElement) {
   new Typed('.typed', {
-    strings: ['Massou Fatima', 'a Full Stack Developer', 'a UX/UI Designer'],
+    strings: ['Massou Fatima', 'a Full Stack Developer', 'a UX/UI Designer', 'a UML Designer'],
     typeSpeed: 80,
     backSpeed: 50,
     loop: true
