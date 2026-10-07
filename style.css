@@ -447,6 +447,34 @@ margin-left: 6px;
     border-bottom: 2px solid #5d6c83;
     transition: all .50s ease;
 }
+.link-live {
+    display: inline-flex;
+    color: var(--main-color);
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 20px;
+    padding: 9px 18px;
+    border: 1px solid currentColor;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.link-live i {
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.link-live:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}
+
+.link-live:hover i {
+    transform: translate(2px, -2px);
+}
 
 .link:hover {
     border-bottom: 2px solid var(--main-color);
